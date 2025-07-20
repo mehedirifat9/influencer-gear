@@ -93,6 +93,15 @@ header {
     margin-left: 5px;
 }
 
+.branding-section{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 100px;
+}
+
 
 /* Responsive Section */
 
@@ -127,7 +136,15 @@ header {
     width: 60%;
 }
 
-
+.branding-section{
+    grid-template-columns:repeat(4, 1fr);
+    gap: 20px;
+    margin: 50px 30px 50px 30px;
+    
+}
+.branding-section img{
+    width: 90%;
+}
 
 
 
